@@ -1,9 +1,20 @@
-module webrtc
+module webrtctest
 
 go 1.22.0
 
 require (
+	github.com/AllenDang/w32 v0.0.0-20180428130237-ad0a36d80adc
+	github.com/StackExchange/wmi v1.2.1
+	github.com/gorilla/websocket v1.5.3
+	github.com/pion/webrtc/v3 v3.3.4
+	github.com/vova616/screenshot v0.0.0-20220801010501-56c10359473c
+)
+
+require (
+	github.com/BurntSushi/xgb v0.0.0-20210121224620-deaf085860bc // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/go-ole/go-ole v1.2.5 // indirect
+	github.com/gonutz/w32 v1.0.0 // indirect
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/pion/datachannel v1.5.8 // indirect
 	github.com/pion/dtls/v2 v2.2.12 // indirect
@@ -20,11 +31,6 @@ require (
 	github.com/pion/stun v0.6.1 // indirect
 	github.com/pion/transport/v2 v2.2.10 // indirect
 	github.com/pion/turn/v2 v2.1.6 // indirect
-	github.com/pion/webrtc/v3 v3.3.4 // indirect
-	github.com/pions/dtls v1.0.2 // indirect
-	github.com/pions/pkg v0.0.0-20181115215726-b60cd756f712 // indirect
-	github.com/pions/webrtc v1.2.0 // indirect
-	github.com/pkg/errors v0.8.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/wlynxg/anet v0.0.3 // indirect
